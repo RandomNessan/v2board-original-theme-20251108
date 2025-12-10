@@ -3,7 +3,7 @@
   const OLD_PREFIX = '/api/v1';
   
   // Insert real api host
-  const NEW_PREFIX = '/rando';
+  const NEW_PREFIX = '';
 
   console.log('[RandoPatch] custom.js loaded, starting patch…');
 
