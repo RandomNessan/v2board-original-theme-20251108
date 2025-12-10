@@ -32,3 +32,5 @@
 6.更换icon后无变化时修改 index.html 中 "<link rel="icon" href="/favicon.png?v=xxx" />"的版本号
 
 7.自定义api路径时，搜索 /assets 路径下 Umi.js 中的 /api/v1 字段并修改为自定义字段，例如 /example
+
+8.custom.js 中修改订阅路径以适配真实 api，使用原版 api 则填入 /api/v1
