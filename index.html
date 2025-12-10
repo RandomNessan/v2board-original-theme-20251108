@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-  <title>Random Cloud Aurora 用户中心</title>
+  <title>Name</title>
 
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
   <meta name="theme-color" content="#319795">
@@ -73,7 +73,7 @@
 
   <script>
     window.settings = {
-      title: '格局加速',
+      title: 'V2board',
       assets_path: './assets',
       theme: {
         sidebar: 'light',
@@ -81,8 +81,9 @@
         color: 'default'
       },
       version: '1.7.5',
-      background_url: 'https://bing.img.run/rand.php',
-      description: '格局加速 - 随机云免费版',
+      <!-- Background Picture URL -->
+      background_url: '',
+      description: 'V2board - Dashboard',
       i18n: [
         'zh-CN',
         'en-US',
@@ -92,8 +93,10 @@
         'zh-TW',
         'fa-IR'
       ],
+      <!-- Logo -->
       logo: './favicon.png?v=235018105162',
-      host: 'https://y537pj8i7f5x.airando.shop'
+     <!-- Backend URL -->
+      host: ''
     };
   </script>
 
@@ -133,7 +136,7 @@ document.addEventListener('contextmenu', function(e) {
         if (window.outerWidth - window.innerWidth > threshold ||
             window.outerHeight - window.innerHeight > threshold) {
             document.body.innerHTML = "";
-            alert("开发者工具已被禁用");
+            alert("Devtools Disabled");
             location.reload();
         }
     }, 500);
