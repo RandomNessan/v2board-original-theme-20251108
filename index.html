@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>Random Cloud Aurora 用户中心</title>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <meta name="theme-color" content="#319795">
+
+  <link rel="stylesheet" href="./assets/components.chunk.css?v=1.7.5">
+  <link rel="stylesheet" href="./assets/umi.css?v=1.7.5">
+  
+  <style>
+    :root {
+      --primary-color: #319795;
+      --ant-primary-color: #319795;
+    }
+
+    .ant-btn-primary {
+      background-color: #319795 !important;
+      border-color: #319795 !important;
+    }
+    .ant-btn-primary:hover,
+    .ant-btn-primary:focus {
+      background-color: #277e77 !important;
+      border-color: #277e77 !important;
+    }
+
+    a {
+      color: #319795;
+    }
+    a:hover {
+      color: #277e77;
+    }
+
+    .ant-menu-item-selected,
+    .ant-menu-item-active,
+    .ant-menu-submenu-title:hover {
+      color: #319795 !important;
+    }
+    .ant-menu-item-selected::after,
+    .ant-menu-item-active::after {
+      border-right-color: #319795 !important;
+    }
+
+    .ant-switch-checked {
+      background-color: #319795 !important;
+    }
+
+    .ant-pagination-item-active {
+      border-color: #319795 !important;
+    }
+    .ant-pagination-item-active a {
+      color: #319795 !important;
+    }
+
+    .ant-tag-checkable-checked {
+      background-color: #319795 !important;
+      border-color: #319795 !important;
+    }
+
+    .ant-progress-bg,
+    .ant-steps-item-process .ant-steps-item-icon {
+      background-color: #319795 !important;
+      border-color: #319795 !important;
+    }
+    .ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon {
+      color: #fff !important;
+    }
+  </style>
+
+  <script>window.routerBase = "/";</script>
+
+  <script>
+    window.settings = {
+      title: '格局加速',
+      assets_path: './assets',
+      theme: {
+        sidebar: 'light',
+        header: 'dark',
+        color: 'default'
+      },
+      version: '1.7.5',
+      background_url: 'https://bing.img.run/rand.php',
+      description: '格局加速 - 随机云免费版',
+      i18n: [
+        'zh-CN',
+        'en-US',
+        'ja-JP',
+        'vi-VN',
+        'ko-KR',
+        'zh-TW',
+        'fa-IR'
+      ],
+      logo: './favicon.png?v=235018105162',
+      host: 'https://y537pj8i7f5x.airando.shop'
+    };
+  </script>
+
+  <script src="./assets/i18n/zh-CN.js?v=1.7.5"></script>
+  <script src="./assets/i18n/zh-TW.js?v=1.7.5"></script>
+  <script src="./assets/i18n/en-US.js?v=1.7.5"></script>
+  <script src="./assets/i18n/ja-JP.js?v=1.7.5"></script>
+  <script src="./assets/i18n/vi-VN.js?v=1.7.5"></script>
+  <script src="./assets/i18n/ko-KR.js?v=1.7.5"></script>
+  <script src="./assets/i18n/fa-IR.js?v=1.7.5"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+
+<script>
+document.onkeydown = function(e) {
+    if (e.keyCode === 123) {
+        return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode === 73) {
+        return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode === 74) {
+        return false;
+    }
+    if (e.ctrlKey && e.keyCode === 85) {
+        return false;
+    }
+};
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});
+(function() {
+    const threshold = 160;
+    setInterval(() => {
+        if (window.outerWidth - window.innerWidth > threshold ||
+            window.outerHeight - window.innerHeight > threshold) {
+            document.body.innerHTML = "";
+            alert("开发者工具已被禁用");
+            location.reload();
+        }
+    }, 500);
+})();
+</script>
+
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/67f46c57846b7b190fd1e14a/1io9cee6q';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+
+  <script src="./assets/custom.js?v=1.7.5"></script>
+  <script src="./assets/vendors.async.js?v=1.7.5"></script>
+  <script src="./assets/components.async.js?v=1.7.5"></script>
+  <script src="./assets/umi.js?v=1.7.5"></script>
+</body>
+</html>
